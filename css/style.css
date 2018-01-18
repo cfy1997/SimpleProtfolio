@@ -1,0 +1,238 @@
+* {
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_reg.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_med.otf);
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url(../fonts/Brandon_thin.otf);
+	font-weight: 200;
+}
+
+body {
+	font-family: 'Brandon', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+a {
+	color: #d84f4b;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	background-color: #333;
+	color: #ccc;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer h3 {
+	font-size: 1rem;
+	font-weight: 200;
+}
+
+.bg-img {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.profile {
+	width: 100px;
+}
+
+nav, .container {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	transition: color .5s ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+}
+
+nav .profile {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav ul {
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.home {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.home h1 {
+	font-size: 5rem;
+	font-weight: 800;
+	margin-bottom: 0;
+}
+
+.home h2 {
+	font-size: 2rem;
+	margin-top: 0;
+	font-weight: 200;
+}
+
+.work h1 {
+	font-size: 3rem;
+}
+
+.work p {
+	font-size: 1.5rem;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+.work-img {
+	width: 50%;
+}
+
+.center {
+	text-align: center;
+}
+
+.row {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.row:after {
+	content: '';
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+/*Form Input Style*/
+
+input, textarea, label {
+	display: block;
+}
+
+label {
+	font-size: 1rem;
+	color: #888;
+}
+
+input, textarea, .btn-send {
+	font-size: 1.5rem;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	font-weight: 200;
+	margin-bottom: 30px;
+	width: 100%;
+	transition: background-color .5s linear;
+	background-color: #e0e0e0;
+}
+
+input:hover, textarea:hover {
+	background-color: white;
+}
+
+form {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-send {
+	background-color: #2196F3;
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+	background-color: #4aabf8;
+}
+
+/*Network Page Style*/
+
+#user-container {
+    padding: 20px;
+}
+
+.user {
+    background-color: rgba(255,255,255,.5);
+    border: 5px solid #e0e0e0;
+    display: inline-block;
+    padding: 15px;
+}
+
+.user p span {
+    background-color: #26ABFF;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+}
+
+#search-input, #search-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#search-input {
+	width: 200px;
+}
+
+#search-btn {
+    background-color: #26ABFF;
+    color: white;
+}
